@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            <div class="nav-links">
+                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+    </section>
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, culpa dolore. Quaerat </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel laboriosam, non praesentium illo numquam nemo, laborum recusandae esse voluptatum officia eos corporis, quas repellendus? Dolores fugiat veniam laudantium error earum.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel laboriosam, non praesentium illo numquam nemo, laborum recusandae esse voluptatum officia eos corporis, quas repellendus? Dolores fugiat veniam laudantium error earum.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel laboriosam, non praesentium illo numquam nemo, laborum recusandae esse voluptatum officia eos corporis, quas repellendus? Dolores fugiat veniam laudantium error earum.</p>
+            </div>
+        </div>
+    </section>
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum tempora </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero reprehenderit atque quisquam quae autem, earum doloribus ipsam odio impedit officiis laboriosam consequuntur, harum expedita recusandae voluptatibus. Similique placeat optio id.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/basketball.png" alt="">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero reprehenderit atque quisquam quae autem, earum doloribus ipsam odio impedit officiis laboriosam consequuntur, harum expedita recusandae voluptatibus. Similique placeat optio id.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero reprehenderit atque quisquam quae autem, earum doloribus ipsam odio impedit officiis laboriosam consequuntur, harum expedita recusandae voluptatibus. Similique placeat optio id.</p>
+            </div>
+        </div>
+    </section>
+
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, magni, assumenda inventore perspiciatis consequatur id dolorum beatae non molestias <br> quo quaerat similique, laboriosam sit eaque aliquam iure aperiam illo quis.</p>
+        <div class="icons"> 
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by easy tutorials</p>
+
+    </section>
+
+     <script>
+    var navLinks = document.querySelector(".nav-links");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+</body>
+</html>
